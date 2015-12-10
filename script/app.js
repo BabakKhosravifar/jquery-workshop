@@ -5,6 +5,7 @@ var imgSelect = $("img");
             
             $(this).css('display','none');
           
+          
         });
 
 imgSelect.each(function(){
@@ -20,6 +21,7 @@ imgSelect.each(function(){
      //   $("div.overlay-img").append('<img src="'+$url+'"><p>'+$alt+'</p>');
         $("p.overlay-text").text($alt);
         $("img.overlay-img").attr("src", $url);
+       
        
     });
 });
