@@ -1,1 +1,11 @@
 /* Write your code here */
+div.announcement {
+  border: 2px solid black;
+  background-color: gray;
+  padding: 0.6em;
+}
+
+button{
+    border: 1px solid black;
+    background-color: yellow;
+}
